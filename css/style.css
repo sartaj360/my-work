@@ -1,0 +1,77 @@
+
+h3{
+  margin-top: 15px;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: coral;
+}
+.custom-img img{
+  width: 100%;
+  height: auto;
+}
+
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+
+.card{
+  margin-left: 15px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 0px 0px 60px 0px;
+  box-shadow: 11px 14px 30px 1px rgba(50, 50, 53, 0.849);
+  -webkit-box-shadow: 11px 14px 30px 1px rgba(50, 50, 53, 0.849);
+  -moz-box-shadow: 11px 14px 30px 1px rgba(50, 50, 53, 0.849);
+}
+
+.card img{
+  width: 100%;
+  height: 400px;
+  border: 0px;
+  border-radius: 0px 0px 60px 0px;
+}
+
+.card p{
+  font-size: 30px;
+  display: none;
+  margin-top: -8em;
+  color: royalblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200 ;
+}
+
+.card img:hover + p{
+  display: block;
+  line-height: 30px;
+ }
+
+ .padding-0 p{
+  height: 225px;
+}
+
+.padding-0 a{
+  text-decoration: none;
+}
+
+/* .bg-img{
+  background: url(../img/bg.jpeg) center center no-repeat;
+  background-size: 100% 100%;
+} */
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 6s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
