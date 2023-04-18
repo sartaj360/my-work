@@ -34,20 +34,18 @@ h3{
 .card p{
   font-size: 30px;
   display: none;
-  margin-top: -8em;
-  color: royalblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 200 ;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
 }
 
 .card img:hover + p{
   display: block;
-  line-height: 30px;
  }
 
- .padding-0 p{
+/*  .padding-0 p{
   height: 225px;
-}
+} */
 
 .padding-0 a{
   text-decoration: none;
